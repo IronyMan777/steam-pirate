@@ -17,6 +17,9 @@ var menubtnc = color(50,20,20);
 var menubtnbgc = color(30,15,15);
 var btnfont = font("Impact");
 
+int plyrx;
+int plyry;
+
 // Functions!  Woot!
 void keyPressed() {
 	keys[keyCode] = true;
@@ -40,7 +43,6 @@ void button(x,y,w,h,c,bgc,t,txtsize,target,value) {
 	textAlign(CENTER,CENTER);
 	text(t,x,y);
 };
-
 
 void logoz() {
 	background(255,255,255);
