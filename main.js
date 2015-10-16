@@ -49,7 +49,7 @@ void logoz() {
 };
 void menu() {
 	background(30,20,20);
-	button(w/2,h/4,200,60,menubtnc,menubtnbgc,"New Game",30,mode,3);
+	button(Width/2,Height/4,200,60,menubtnc,menubtnbgc,"New Game",30,mode,3);
 };
 // If you get this next reference, you're stalking me.
 void launchDaPonies() {
