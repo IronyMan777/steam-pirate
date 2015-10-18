@@ -13,8 +13,8 @@ int Width = 800;
 int Height = 600;
 int Framerate = 60;
 int mode = 0;
-var menubtnc = color(90,60,60);
-var menubtnbgc = color(30,15,15);
+var menubtnc = color(0,0,0);
+var menubtnbgc = color(90,50,45);
 var btnfont = createFont("Impact");
 
 int plyrx;
@@ -54,7 +54,7 @@ void logoz() {
 	background(255,255,255);
 };
 void menu() {
-	background(30,20,20);
+	background(25,20,20);
 	button(Width/2,Height/4,200,60,menubtnc,menubtnbgc,"New Game",30,mode,3);
 };
 // If you get this next reference, you're stalking me.
