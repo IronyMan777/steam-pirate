@@ -13,7 +13,7 @@ int Width = 800;
 int Height = 600;
 int Framerate = 60;
 int mode = 0;
-var menubtnc = color(100,70,60);
+var menubtnc = color(90,60,60);
 var menubtnbgc = color(30,15,15);
 var btnfont = createFont("Impact");
 
@@ -42,7 +42,7 @@ void button(x,y,w,h,c,bgc,t,txtsize,target,value) {
 	strokeWeight(5);
 	fill(bgc);
 	rectMode(CENTER,CENTER);
-	rect(x,y,w,h,30);
+	rect(x,y,w,h,17);
 	
 	fill(c);
 	textFont(btnfont,txtsize);
