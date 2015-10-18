@@ -13,7 +13,7 @@ int Width = 800;
 int Height = 600;
 int Framerate = 60;
 int mode = 0;
-var menubtnc = color(50,20,20);
+var menubtnc = color(100,50,50);
 var menubtnbgc = color(30,15,15);
 var btnfont = createFont("Impact");
 
