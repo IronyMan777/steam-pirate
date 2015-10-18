@@ -14,7 +14,7 @@ int Height = 600;
 int Framerate = 60;
 int mode = 0;
 var menubtnc = color(0,0,0);
-var menubtnbgc = color(90,50,45);
+var menubtnbgc = color(65,50,45);
 var btnfont = createFont("Impact");
 
 int plyrx;
