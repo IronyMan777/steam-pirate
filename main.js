@@ -13,7 +13,7 @@ int Width = 800;
 int Height = 600;
 int Framerate = 60;
 int mode = 0;
-var menubtnc = color(100,50,50);
+var menubtnc = color(100,70,60);
 var menubtnbgc = color(30,15,15);
 var btnfont = createFont("Impact");
 
@@ -39,9 +39,10 @@ void mouseReleased() {
 
 void button(x,y,w,h,c,bgc,t,txtsize,target,value) {
 	stroke(c);
+	strokeWeight(5);
 	fill(bgc);
 	rectMode(CENTER,CENTER);
-	rect(x,y,w,h,50);
+	rect(x,y,w,h,30);
 	
 	fill(c);
 	textFont(btnfont,txtsize);
