@@ -19,7 +19,7 @@ var btnfont = font("Impact");
 
 int plyrx;
 int plyry;
-var keyCode = [];
+var keys = [];
 
 // Functions!  Woot!
 void keyPressed() {
