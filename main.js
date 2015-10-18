@@ -17,8 +17,9 @@ var menubtnc = color(50,20,20);
 var menubtnbgc = color(30,15,15);
 var btnfont = font("Impact");
 
-int plyrx = 0;
-int plyry = 0;
+int plyrx;
+int plyry;
+var keyCode = [];
 
 // Functions!  Woot!
 void keyPressed() {
