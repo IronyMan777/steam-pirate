@@ -40,6 +40,10 @@ void mouseReleased() {
 void button(x,y,w,h,c,bgc,t,txtsize,target,value) {
 	stroke(c);
 	fill(bgc);
+	rectMode(CENTER,CENTER);
+	rect(x,y,w,h,50);
+	
+	fill(c);
 	textFont(btnfont,txtsize);
 	textAlign(CENTER,CENTER);
 	text(t,x,y);
