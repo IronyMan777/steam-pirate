@@ -15,7 +15,7 @@ int Framerate = 60;
 int mode = 0;
 var menubtnc = color(50,20,20);
 var menubtnbgc = color(30,15,15);
-var btnfont = font("Impact");
+var btnfont = createFont("Impact");
 
 int plyrx;
 int plyry;
