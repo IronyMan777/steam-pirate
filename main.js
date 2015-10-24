@@ -43,7 +43,7 @@ void button(x,y,w,h,c,bgc,t,txtsize,target,value) {
 	fill(bgc);
 	rectMode(CENTER,CENTER);
 	rect(x,y,w,h,17);
-	
+	// Agh, complicated.
 	fill(c);
 	textFont(btnfont,txtsize);
 	textAlign(CENTER,CENTER);
